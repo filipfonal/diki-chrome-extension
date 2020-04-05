@@ -1,0 +1,23 @@
+{
+	"name": "Diki",
+	"version": "1.0",
+	"description": "Chrome extension to translate words using Diki dictionary",
+	"permissions": [
+		"activeTab"
+	],
+	"browser_action": {
+	  "default_title": "Diki translate",
+	  "default_popup": "diki.html",
+	  "default_icon": {
+        "32": "images/dict-icon-32.png",
+        "48": "images/dict-icon-48.png",
+        "128": "images/dict-icon-128.png"
+      }
+	},
+	"icons": {
+      "32": "images/dict-icon-32.png",
+      "48": "images/dict-icon-48.png",
+      "128": "images/dict-icon-128.png"
+    },
+	"manifest_version": 2
+}
